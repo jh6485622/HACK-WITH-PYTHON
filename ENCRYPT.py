@@ -27,7 +27,7 @@ os.system('color 4f')
 os.system('cls')
 print('YOU ARE HACKED!\n\n')
 print('********************************')
-print(f'Code: {len(os.listdir()) + math.floor(klen/math.log2(klen))}')
+print(f'Code: {len(os.listdir()) + math.floor(klen)}')
 print('********************************')
 print('Enter the code to save your files!')
 count = 5
